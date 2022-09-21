@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "CocoaAsyncSocket",
+    name: "MqttCocoaAsyncSocket",
     platforms: [
         .iOS(.v9),
         .macOS(.v10_10),
@@ -12,23 +12,23 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "CocoaAsyncSocket",
-            targets: ["CocoaAsyncSocket"]),
+            name: "MqttCocoaAsyncSocket",
+            targets: ["MqttCocoaAsyncSocket"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "CocoaAsyncSocket",
+            name: "MqttCocoaAsyncSocket",
             dependencies: [],
             path: "Source/GCD",
             publicHeadersPath: ""),
 
         .testTarget(name: "SharedObjCTests",
-                    dependencies: ["CocoaAsyncSocket"],
+                    dependencies: ["MqttCocoaAsyncSocket"],
                     path: "Tests/Shared/ObjC"),
 
         .testTarget(name: "SharedSwiftTests",
-                    dependencies: ["CocoaAsyncSocket"],
+                    dependencies: ["MqttCocoaAsyncSocket"],
                     path: "Tests/Shared/Swift")
     ]
 )

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <XCTest/XCTest.h>
-@import CocoaAsyncSocket;
+@import MqttCocoaAsyncSocket;
 
 @interface GCDAsyncSocketUNTests : XCTestCase <GCDAsyncSocketDelegate>
 @property (nonatomic, strong) NSURL *url;

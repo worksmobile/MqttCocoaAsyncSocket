@@ -10,7 +10,7 @@
 #import <XCTest/XCTest.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
-@import CocoaAsyncSocket;
+@import MqttCocoaAsyncSocket;
 
 @interface GCDAsyncSocketConnectionTests : XCTestCase <GCDAsyncSocketDelegate>
 @property (nonatomic) uint16_t portNumber;

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <XCTest/XCTest.h>
-@import CocoaAsyncSocket;
+@import MqttCocoaAsyncSocket;
 
 @interface GCDAsyncUdpSocketConnectionTests : XCTestCase<GCDAsyncUdpSocketDelegate>
 @property (nonatomic) uint16_t portNumber;

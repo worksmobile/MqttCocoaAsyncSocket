@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import CocoaAsyncSocket
+import MqttCocoaAsyncSocket
 
 class SwiftTests: XCTestCase, GCDAsyncSocketDelegate {
     

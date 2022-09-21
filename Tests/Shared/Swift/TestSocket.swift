@@ -1,4 +1,4 @@
-import CocoaAsyncSocket
+import MqttCocoaAsyncSocket
 import XCTest
 
 /**
