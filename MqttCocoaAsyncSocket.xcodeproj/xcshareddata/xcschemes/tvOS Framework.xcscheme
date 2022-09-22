@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7D8B70C31BCFA15700D8E273"
-               BuildableName = "CocoaAsyncSocket.framework"
-               BlueprintName = "tvOS CocoaAsyncSocket"
-               ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
+               BuildableName = "MqttCocoaAsyncSocket.framework"
+               BlueprintName = "tvOS MqttCocoaAsyncSocket"
+               ReferencedContainer = "container:MqttCocoaAsyncSocket.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7D8B70C31BCFA15700D8E273"
-            BuildableName = "CocoaAsyncSocket.framework"
-            BlueprintName = "tvOS CocoaAsyncSocket"
-            ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
+            BuildableName = "MqttCocoaAsyncSocket.framework"
+            BlueprintName = "tvOS MqttCocoaAsyncSocket"
+            ReferencedContainer = "container:MqttCocoaAsyncSocket.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -60,9 +60,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7D8B70C31BCFA15700D8E273"
-            BuildableName = "CocoaAsyncSocket.framework"
-            BlueprintName = "tvOS CocoaAsyncSocket"
-            ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
+            BuildableName = "MqttCocoaAsyncSocket.framework"
+            BlueprintName = "tvOS MqttCocoaAsyncSocket"
+            ReferencedContainer = "container:MqttCocoaAsyncSocket.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
