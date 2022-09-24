@@ -26,14 +26,14 @@
 
 /* Begin PBXFileReference section */
 		6C55C7D11B7838B1006A7440 /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CocoaAsyncSocket.h; path = Source/CocoaAsyncSocket.h; sourceTree = SOURCE_ROOT; };
-		6CD990101B77868C0011A685 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD990101B77868C0011A685 /* MqttCocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MqttCocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD990151B77868C0011A685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
 		6CD9902C1B7789680011A685 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = SOURCE_ROOT; };
 		6CD9902D1B7789680011A685 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = SOURCE_ROOT; };
 		6CD9902E1B7789680011A685 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = SOURCE_ROOT; };
 		6CD9902F1B7789680011A685 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = SOURCE_ROOT; };
-		7D8B70C41BCFA15700D8E273 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FC41F131B9D965000578BEB /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8B70C41BCFA15700D8E273 /* MqttCocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MqttCocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC41F131B9D965000578BEB /* MqttCocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MqttCocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +72,9 @@
 		6CD990111B77868C0011A685 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6CD990101B77868C0011A685 /* CocoaAsyncSocket.framework */,
-				9FC41F131B9D965000578BEB /* CocoaAsyncSocket.framework */,
-				7D8B70C41BCFA15700D8E273 /* CocoaAsyncSocket.framework */,
+				6CD990101B77868C0011A685 /* MqttCocoaAsyncSocket.framework */,
+				9FC41F131B9D965000578BEB /* MqttCocoaAsyncSocket.framework */,
+				7D8B70C41BCFA15700D8E273 /* MqttCocoaAsyncSocket.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,9 +137,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6CD9900F1B77868C0011A685 /* iOS CocoaAsyncSocket */ = {
+		6CD9900F1B77868C0011A685 /* iOS MqttCocoaAsyncSocket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CD990241B77868C0011A685 /* Build configuration list for PBXNativeTarget "iOS CocoaAsyncSocket" */;
+			buildConfigurationList = 6CD990241B77868C0011A685 /* Build configuration list for PBXNativeTarget "iOS MqttCocoaAsyncSocket" */;
 			buildPhases = (
 				6CD9900B1B77868C0011A685 /* Sources */,
 				6CD9900C1B77868C0011A685 /* Frameworks */,
@@ -150,14 +150,14 @@
 			);
 			dependencies = (
 			);
-			name = "iOS CocoaAsyncSocket";
+			name = "iOS MqttCocoaAsyncSocket";
 			productName = CocoaAsyncSocket;
-			productReference = 6CD990101B77868C0011A685 /* CocoaAsyncSocket.framework */;
+			productReference = 6CD990101B77868C0011A685 /* MqttCocoaAsyncSocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7D8B70C31BCFA15700D8E273 /* tvOS CocoaAsyncSocket */ = {
+		7D8B70C31BCFA15700D8E273 /* tvOS MqttCocoaAsyncSocket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D8B70CB1BCFA15700D8E273 /* Build configuration list for PBXNativeTarget "tvOS CocoaAsyncSocket" */;
+			buildConfigurationList = 7D8B70CB1BCFA15700D8E273 /* Build configuration list for PBXNativeTarget "tvOS MqttCocoaAsyncSocket" */;
 			buildPhases = (
 				7D8B70BF1BCFA15700D8E273 /* Sources */,
 				7D8B70C01BCFA15700D8E273 /* Frameworks */,
@@ -168,14 +168,14 @@
 			);
 			dependencies = (
 			);
-			name = "tvOS CocoaAsyncSocket";
+			name = "tvOS MqttCocoaAsyncSocket";
 			productName = "tvOS CocoaAsyncSocket";
-			productReference = 7D8B70C41BCFA15700D8E273 /* CocoaAsyncSocket.framework */;
+			productReference = 7D8B70C41BCFA15700D8E273 /* MqttCocoaAsyncSocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9FC41F121B9D965000578BEB /* Mac CocoaAsyncSocket */ = {
+		9FC41F121B9D965000578BEB /* Mac MqttCocoaAsyncSocket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FC41F261B9D965000578BEB /* Build configuration list for PBXNativeTarget "Mac CocoaAsyncSocket" */;
+			buildConfigurationList = 9FC41F261B9D965000578BEB /* Build configuration list for PBXNativeTarget "Mac MqttCocoaAsyncSocket" */;
 			buildPhases = (
 				9FC41F0E1B9D965000578BEB /* Sources */,
 				9FC41F0F1B9D965000578BEB /* Frameworks */,
@@ -186,9 +186,9 @@
 			);
 			dependencies = (
 			);
-			name = "Mac CocoaAsyncSocket";
+			name = "Mac MqttCocoaAsyncSocket";
 			productName = "Mac CocoaAsyncSocket";
-			productReference = 9FC41F131B9D965000578BEB /* CocoaAsyncSocket.framework */;
+			productReference = 9FC41F131B9D965000578BEB /* MqttCocoaAsyncSocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6CD9900A1B77868C0011A685 /* Build configuration list for PBXProject "CocoaAsyncSocket" */;
+			buildConfigurationList = 6CD9900A1B77868C0011A685 /* Build configuration list for PBXProject "MqttCocoaAsyncSocket" */;
 			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,9 +227,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6CD9900F1B77868C0011A685 /* iOS CocoaAsyncSocket */,
-				9FC41F121B9D965000578BEB /* Mac CocoaAsyncSocket */,
-				7D8B70C31BCFA15700D8E273 /* tvOS CocoaAsyncSocket */,
+				6CD9900F1B77868C0011A685 /* iOS MqttCocoaAsyncSocket */,
+				9FC41F121B9D965000578BEB /* Mac MqttCocoaAsyncSocket */,
+				7D8B70C31BCFA15700D8E273 /* tvOS MqttCocoaAsyncSocket */,
 			);
 		};
 /* End PBXProject section */
@@ -446,7 +446,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.robbiehanson.CocoaAsyncSocket;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = MqttCocoaAsyncSocket;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -468,7 +468,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.robbiehanson.CocoaAsyncSocket;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = MqttCocoaAsyncSocket;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -490,7 +490,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.robbiehanson.CocoaAsyncSocket;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = MqttCocoaAsyncSocket;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -515,7 +515,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.robbiehanson.CocoaAsyncSocket;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = MqttCocoaAsyncSocket;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -547,7 +547,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.robbiehanson.CocoaAsyncSocket;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = MqttCocoaAsyncSocket;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -573,7 +573,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.robbiehanson.CocoaAsyncSocket;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = MqttCocoaAsyncSocket;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -582,7 +582,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6CD9900A1B77868C0011A685 /* Build configuration list for PBXProject "CocoaAsyncSocket" */ = {
+		6CD9900A1B77868C0011A685 /* Build configuration list for PBXProject "MqttCocoaAsyncSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CD990221B77868C0011A685 /* Debug */,
@@ -591,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CD990241B77868C0011A685 /* Build configuration list for PBXNativeTarget "iOS CocoaAsyncSocket" */ = {
+		6CD990241B77868C0011A685 /* Build configuration list for PBXNativeTarget "iOS MqttCocoaAsyncSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CD990251B77868C0011A685 /* Debug */,
@@ -600,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D8B70CB1BCFA15700D8E273 /* Build configuration list for PBXNativeTarget "tvOS CocoaAsyncSocket" */ = {
+		7D8B70CB1BCFA15700D8E273 /* Build configuration list for PBXNativeTarget "tvOS MqttCocoaAsyncSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7D8B70C91BCFA15700D8E273 /* Debug */,
@@ -609,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FC41F261B9D965000578BEB /* Build configuration list for PBXNativeTarget "Mac CocoaAsyncSocket" */ = {
+		9FC41F261B9D965000578BEB /* Build configuration list for PBXNativeTarget "Mac MqttCocoaAsyncSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FC41F271B9D965000578BEB /* Debug */,

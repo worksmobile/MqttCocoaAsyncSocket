@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9FC41F121B9D965000578BEB"
-               BuildableName = "CocoaAsyncSocket.framework"
-               BlueprintName = "Mac CocoaAsyncSocket"
-               ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
+               BuildableName = "MqttCocoaAsyncSocket.framework"
+               BlueprintName = "Mac MqttCocoaAsyncSocket"
+               ReferencedContainer = "container:MqttCocoaAsyncSocket.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "9FC41F1C1B9D965000578BEB"
                BuildableName = "Mac CocoaAsyncSocketTests.xctest"
                BlueprintName = "Mac CocoaAsyncSocketTests"
-               ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
+               ReferencedContainer = "container:MqttCocoaAsyncSocket.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9FC41F121B9D965000578BEB"
-            BuildableName = "CocoaAsyncSocket.framework"
-            BlueprintName = "Mac CocoaAsyncSocket"
-            ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
+            BuildableName = "MqttCocoaAsyncSocket.framework"
+            BlueprintName = "Mac MqttCocoaAsyncSocket"
+            ReferencedContainer = "container:MqttCocoaAsyncSocket.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -58,7 +58,7 @@
                BlueprintIdentifier = "9FC41F1C1B9D965000578BEB"
                BuildableName = "Mac CocoaAsyncSocketTests.xctest"
                BlueprintName = "Mac CocoaAsyncSocketTests"
-               ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
+               ReferencedContainer = "container:MqttCocoaAsyncSocket.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9FC41F121B9D965000578BEB"
-            BuildableName = "CocoaAsyncSocket.framework"
-            BlueprintName = "Mac CocoaAsyncSocket"
-            ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
+            BuildableName = "MqttCocoaAsyncSocket.framework"
+            BlueprintName = "Mac MqttCocoaAsyncSocket"
+            ReferencedContainer = "container:MqttCocoaAsyncSocket.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -93,9 +93,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9FC41F121B9D965000578BEB"
-            BuildableName = "CocoaAsyncSocket.framework"
-            BlueprintName = "Mac CocoaAsyncSocket"
-            ReferencedContainer = "container:CocoaAsyncSocket.xcodeproj">
+            BuildableName = "MqttCocoaAsyncSocket.framework"
+            BlueprintName = "Mac MqttCocoaAsyncSocket"
+            ReferencedContainer = "container:MqttCocoaAsyncSocket.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

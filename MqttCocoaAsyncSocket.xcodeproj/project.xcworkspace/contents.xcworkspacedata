@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CocoaAsyncSocket.xcodeproj">
+      location = "self:/Users/denvoko/Coding/Project/MqttCocoaAsyncSocket/MqttCocoaAsyncSocket.xcodeproj">
    </FileRef>
 </Workspace>
