@@ -10,27 +10,27 @@
 		4AB7B6A528E458AD003ED9BF /* MqttCocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6A328E458AD003ED9BF /* MqttCocoaAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AB7B6A928E458BB003ED9BF /* MqttCocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6A328E458AD003ED9BF /* MqttCocoaAsyncSocket.h */; };
 		4AB7B6AA28E458BC003ED9BF /* MqttCocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6A328E458AD003ED9BF /* MqttCocoaAsyncSocket.h */; };
-		4AB7B6D128E4592A003ED9BF /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6CD28E4592A003ED9BF /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AB7B6D228E4592A003ED9BF /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6CD28E4592A003ED9BF /* GCDAsyncSocket.h */; };
-		4AB7B6D328E4592A003ED9BF /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6CD28E4592A003ED9BF /* GCDAsyncSocket.h */; };
-		4AB7B6D428E4592A003ED9BF /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B6CE28E4592A003ED9BF /* GCDAsyncUdpSocket.m */; };
-		4AB7B6D528E4592A003ED9BF /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B6CE28E4592A003ED9BF /* GCDAsyncUdpSocket.m */; };
-		4AB7B6D628E4592A003ED9BF /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B6CE28E4592A003ED9BF /* GCDAsyncUdpSocket.m */; };
-		4AB7B6D728E4592A003ED9BF /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6CF28E4592A003ED9BF /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AB7B6D828E4592A003ED9BF /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6CF28E4592A003ED9BF /* GCDAsyncUdpSocket.h */; };
-		4AB7B6D928E4592A003ED9BF /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6CF28E4592A003ED9BF /* GCDAsyncUdpSocket.h */; };
-		4AB7B6DA28E4592A003ED9BF /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B6D028E4592A003ED9BF /* GCDAsyncSocket.m */; };
-		4AB7B6DB28E4592A003ED9BF /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B6D028E4592A003ED9BF /* GCDAsyncSocket.m */; };
-		4AB7B6DC28E4592A003ED9BF /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B6D028E4592A003ED9BF /* GCDAsyncSocket.m */; };
+		4AB7B6D128E4592A003ED9BF /* MGCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6CD28E4592A003ED9BF /* MGCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AB7B6D228E4592A003ED9BF /* MGCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6CD28E4592A003ED9BF /* MGCDAsyncSocket.h */; };
+		4AB7B6D328E4592A003ED9BF /* MGCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6CD28E4592A003ED9BF /* MGCDAsyncSocket.h */; };
+		4AB7B6D428E4592A003ED9BF /* MGCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B6CE28E4592A003ED9BF /* MGCDAsyncUdpSocket.m */; };
+		4AB7B6D528E4592A003ED9BF /* MGCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B6CE28E4592A003ED9BF /* MGCDAsyncUdpSocket.m */; };
+		4AB7B6D628E4592A003ED9BF /* MGCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B6CE28E4592A003ED9BF /* MGCDAsyncUdpSocket.m */; };
+		4AB7B6D728E4592A003ED9BF /* MGCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6CF28E4592A003ED9BF /* MGCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AB7B6D828E4592A003ED9BF /* MGCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6CF28E4592A003ED9BF /* MGCDAsyncUdpSocket.h */; };
+		4AB7B6D928E4592A003ED9BF /* MGCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB7B6CF28E4592A003ED9BF /* MGCDAsyncUdpSocket.h */; };
+		4AB7B6DA28E4592A003ED9BF /* MGCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B6D028E4592A003ED9BF /* MGCDAsyncSocket.m */; };
+		4AB7B6DB28E4592A003ED9BF /* MGCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B6D028E4592A003ED9BF /* MGCDAsyncSocket.m */; };
+		4AB7B6DC28E4592A003ED9BF /* MGCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7B6D028E4592A003ED9BF /* MGCDAsyncSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4AB7B6A328E458AD003ED9BF /* MqttCocoaAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MqttCocoaAsyncSocket.h; sourceTree = "<group>"; };
 		4AB7B6A428E458AD003ED9BF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4AB7B6CD28E4592A003ED9BF /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
-		4AB7B6CE28E4592A003ED9BF /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		4AB7B6CF28E4592A003ED9BF /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		4AB7B6D028E4592A003ED9BF /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		4AB7B6CD28E4592A003ED9BF /* MGCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCDAsyncSocket.h; sourceTree = "<group>"; };
+		4AB7B6CE28E4592A003ED9BF /* MGCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		4AB7B6CF28E4592A003ED9BF /* MGCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		4AB7B6D028E4592A003ED9BF /* MGCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCDAsyncSocket.m; sourceTree = "<group>"; };
 		6CD990101B77868C0011A685 /* MqttCocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MqttCocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8B70C41BCFA15700D8E273 /* MqttCocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MqttCocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC41F131B9D965000578BEB /* MqttCocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MqttCocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,10 +64,10 @@
 		4AB7B6CC28E45913003ED9BF /* GCD */ = {
 			isa = PBXGroup;
 			children = (
-				4AB7B6CD28E4592A003ED9BF /* GCDAsyncSocket.h */,
-				4AB7B6D028E4592A003ED9BF /* GCDAsyncSocket.m */,
-				4AB7B6CF28E4592A003ED9BF /* GCDAsyncUdpSocket.h */,
-				4AB7B6CE28E4592A003ED9BF /* GCDAsyncUdpSocket.m */,
+				4AB7B6CD28E4592A003ED9BF /* MGCDAsyncSocket.h */,
+				4AB7B6D028E4592A003ED9BF /* MGCDAsyncSocket.m */,
+				4AB7B6CF28E4592A003ED9BF /* MGCDAsyncUdpSocket.h */,
+				4AB7B6CE28E4592A003ED9BF /* MGCDAsyncUdpSocket.m */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -108,8 +108,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AB7B6A528E458AD003ED9BF /* MqttCocoaAsyncSocket.h in Headers */,
-				4AB7B6D728E4592A003ED9BF /* GCDAsyncUdpSocket.h in Headers */,
-				4AB7B6D128E4592A003ED9BF /* GCDAsyncSocket.h in Headers */,
+				4AB7B6D728E4592A003ED9BF /* MGCDAsyncUdpSocket.h in Headers */,
+				4AB7B6D128E4592A003ED9BF /* MGCDAsyncSocket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,8 +118,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AB7B6AA28E458BC003ED9BF /* MqttCocoaAsyncSocket.h in Headers */,
-				4AB7B6D928E4592A003ED9BF /* GCDAsyncUdpSocket.h in Headers */,
-				4AB7B6D328E4592A003ED9BF /* GCDAsyncSocket.h in Headers */,
+				4AB7B6D928E4592A003ED9BF /* MGCDAsyncUdpSocket.h in Headers */,
+				4AB7B6D328E4592A003ED9BF /* MGCDAsyncSocket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,8 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AB7B6A928E458BB003ED9BF /* MqttCocoaAsyncSocket.h in Headers */,
-				4AB7B6D828E4592A003ED9BF /* GCDAsyncUdpSocket.h in Headers */,
-				4AB7B6D228E4592A003ED9BF /* GCDAsyncSocket.h in Headers */,
+				4AB7B6D828E4592A003ED9BF /* MGCDAsyncUdpSocket.h in Headers */,
+				4AB7B6D228E4592A003ED9BF /* MGCDAsyncSocket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AB7B6DA28E4592A003ED9BF /* GCDAsyncSocket.m in Sources */,
-				4AB7B6D428E4592A003ED9BF /* GCDAsyncUdpSocket.m in Sources */,
+				4AB7B6DA28E4592A003ED9BF /* MGCDAsyncSocket.m in Sources */,
+				4AB7B6D428E4592A003ED9BF /* MGCDAsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AB7B6DC28E4592A003ED9BF /* GCDAsyncSocket.m in Sources */,
-				4AB7B6D628E4592A003ED9BF /* GCDAsyncUdpSocket.m in Sources */,
+				4AB7B6DC28E4592A003ED9BF /* MGCDAsyncSocket.m in Sources */,
+				4AB7B6D628E4592A003ED9BF /* MGCDAsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AB7B6DB28E4592A003ED9BF /* GCDAsyncSocket.m in Sources */,
-				4AB7B6D528E4592A003ED9BF /* GCDAsyncUdpSocket.m in Sources */,
+				4AB7B6DB28E4592A003ED9BF /* MGCDAsyncSocket.m in Sources */,
+				4AB7B6D528E4592A003ED9BF /* MGCDAsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
